@@ -1,0 +1,76 @@
+
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #e0f2f1, #f3f4f6);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+header {
+  background: linear-gradient(90deg, #2e5f50, #4f46e5, #6366f1);
+  color: var(--light);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-right: 10px;
+  font-size: 10px;
+  gap: 10px;
+}
+
+header h1 {
+  padding-left: 2px;
+  margin-left: 2px;
+}
+
+.nick0 {
+  padding-left: 40px;
+  margin-left: 0;
+}
+
+.nick1 {
+  margin-bottom: 0;
+  margin-right: 20px;
+  margin-left: auto;
+}
+
+.nick1 a {
+  color: var(--light);
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: var(--light);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.nick3 {
+  background-image: url('photo/best doctors.webp');
+  text-align: center;
+  background-size: contain;
+  background-position: center top;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 200px;
+  min-width: 1000px;
+  max-width: 100%;
+}
+
+.nick3 button {
+  background: linear-gradient(90deg, #2e5f50, #4f46e5, #6366f1);
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: black;
+  color: #6b7280;
+  margin-top: 3rem;
+}
